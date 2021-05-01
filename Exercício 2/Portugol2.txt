@@ -1,0 +1,17 @@
+VAR ANO = REAL
+VAR ATUAL = REAL
+VAR IDADE = REAL
+VAR SEMANA = REAL
+
+INÍCIO
+
+    ESCREVA ("Em que ano você nasceu?")
+    LEIA (ANO)
+
+    ATUAL = Calendario.Ano.ATUAL
+    IDADE = ATUAL - ANO
+    SEMANA = IDADE * 52
+
+    ESCREVA ("A sua idade, em anos, é igual a {IDADE}, o que equivale a aproximadamente {SEMANA} semanas")
+
+FIM

@@ -1,0 +1,17 @@
+VAR SALARIO = REAL
+VAR AJUSTE = REAL
+
+INÍCIO
+
+    ESCREVA("Digite o seu salário:")
+    LEIA (SALARIO)
+
+    SE (SALARIO < 500) ENTAO
+        AJUSTE = SALARIO * 1.3
+        ESCREVA("O seu salário foi reajustado para {AJUSTE} reais")
+
+    SENAO
+        ESCREVA("O reajuste salarial não se aplica ao valor indicado")
+    FIMSE
+
+FIM

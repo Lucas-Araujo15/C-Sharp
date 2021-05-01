@@ -1,0 +1,32 @@
+VAR IDADE = REAL
+
+INICIO
+
+    ESCREVA("Digite a sua idade: ")
+    LEIA (IDADE)
+
+    SE (IDADE < 5) ENTAO
+        ESCREVA("Não há categorias para essa faixa etária")
+    FIMSE
+
+    SE (IDADE >= 5 E IDADE <= 7) ENTAO
+        ESCREVA("A sua categoria é Infantil A")
+    FIMSE
+
+    SE (IDADE > 7 E IDADE <= 10) ENTAO
+        ESCREVA("A sua categoria é Infantil B")
+    FIMSE
+
+    SE (IDADE > 10 E IDADE <= 13) ENTAO
+        ESCREVA("A sua categoria é Juvenil A")
+    FIMSE
+
+    SE (IDADE > 13 E IDADE <= 17) ENTAO 
+        ESCREVA("A sua categoria é Juvenil B")
+    FIMSE
+
+    SE (IDADE > 18) ENTAO
+        ESCREVA("A sua categoria é Sênior")
+    FIMSE
+
+FIM

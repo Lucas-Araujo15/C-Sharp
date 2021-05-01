@@ -1,0 +1,23 @@
+VAR IDADE = REAL
+VAR MESES = REAL
+VAR DIAS = REAL
+VAR HORAS = REAL
+VAR MINUTOS = REAL
+
+INÍCIO
+
+    ESCREVA ("Qual sua idade?")
+    LEIA (IDADE)
+
+    MESES = IDADE * 12
+    DIAS = IDADE * 365
+    HORAS = IDADE * 8760
+    MINUTOS = IDADE * 525600
+
+    ESCREVAL("
+    Você tem:  {MESES}  meses
+    Você tem:  {DIAS}  dias
+    Você tem:  {HORAS}  horas
+    Você tem:  {MINUTOS}  minutos")
+
+FIM
